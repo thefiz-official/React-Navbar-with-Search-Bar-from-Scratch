@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:not(.active) {
+  color: red;
+}
+
+.active {
+  font-weight: bold;
+  color: white;
+}
+
+.nav input {
+  border: none;
+  padding-left: 10px;
+  height: 30px;
+}
